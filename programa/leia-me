@@ -1,0 +1,6 @@
+pokemon.h -> id, especie, nome, tipo, poder e energia no monitor, reciclado do tp1 e adaptado para o caso atual
+pokemonitor.h -> representa o consumo de energia de um pokemon
+pokelista.h -> lista simplesmente encadeada sem cabeça reaproveitada, armazena e transfere pokemons pelas células
+treinador.h -> reaproveitado do ultimo tp, representa cada treinador id, nome e sua parte da equipe selecionada
+equipe.h -> guarda os indices e os totais da melhor equipe
+selecao.h -> gerar combinações, avaliar candidatas e atualizar a melhor. É um algoritmo, não nescessáriamente um tad.
