@@ -3,8 +3,7 @@
 
 /* Helpers usados somente neste arquivo.
    A logica de indices crescentes foi adaptada para C da receita combinations:
-   https://docs.python.org/3/library/itertools.html#itertools.combinations
-   A contagem de combinacoes esta em Cormen, secao C.1, PDF local 951-952. */
+   https://docs.python.org/3/library/itertools.html#itertools.combinations */
 static void primeira_combinacao(int indices[], int x) {
     for (int i = 0; i < x; i++) {
         indices[i] = i;
