@@ -1,0 +1,19 @@
+programa/
+├── main.c                    [CRIAR] coordenação + funções auxiliares simples
+├── Makefile                  [EXISTE] já inclui os seis módulos
+├── include/
+│   ├── pokemonitor.h          [EXISTE] contrato do consumo de energia
+│   ├── pokemon.h             [EXISTE] registro com poder e monitor
+│   ├── pokelista.h           [EXISTE] contrato da lista encadeada
+│   ├── treinador.h           [EXISTE] treinador e sua lista
+│   ├── equipe.h              [EXISTE] tipo e operações do resultado da seleção
+│   └── selecao.h             [EXISTE] função pública que encontra a melhor equipe
+├── src/
+│   ├── pokemonitor.c          [EXISTE]
+│   ├── pokemon.c             [EXISTE]
+│   ├── pokelista.c           [EXISTE]
+│   ├── treinador.c           [EXISTE]
+│   ├── equipe.c              [EXISTE] iniciar, copiar resultado e liberar índices
+│   └── selecao.c             [EXISTE] gerar X a X, somar e comparar candidatas
+└── testes/
+    └── casos de entrada [PLANEJAR] pequenos exemplos para conferir à mão
