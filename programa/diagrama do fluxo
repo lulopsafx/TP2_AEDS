@@ -1,13 +1,43 @@
-```mermaid
-flowchart TD
-    A["Abrir e validar a entrada"] --> B["Criar os N objetos Pokemon"]
-    B --> C["Inserir em disponíveis"]
-    C --> D["Copiar Pokemon\* para o vetor de consulta"]
-    D --> E["Inicializar Equipe com capacidade N"]
-    E --> F["Selecionar a melhor combinação"]
-    F --> G["Apresentar integrantes, totais e tempo"]
-    G --> H["Transferir escolhidos para os treinadores"]
-    H --> I["Liberar vetor, Equipe e as três listas"]
-
-    F -.->|não altera| C
-```
+┌──────────────────────────────────────────────┐
+│          Abrir e validar a entrada           │
+└──────────────────────┬───────────────────────┘
+                       │
+                       ▼
+┌──────────────────────────────────────────────┐
+│         Criar os N objetos Pokemon           │
+└──────────────────────┬───────────────────────┘
+                       │
+                       ▼
+┌──────────────────────────────────────────────┐ < - - - ┐
+│            Inserir em disponíveis            │         :
+└──────────────────────┬───────────────────────┘         :
+                       │                                 :
+                       ▼                                 :
+┌──────────────────────────────────────────────┐         :
+│   Copiar Pokemon* para o vetor de consulta   │         :
+└──────────────────────┬───────────────────────┘         :
+                       │                                 :
+                       ▼                                 :
+┌──────────────────────────────────────────────┐         :
+│     Inicializar Equipe com capacidade N      │         :
+└──────────────────────┬───────────────────────┘         :
+                       │                                 :
+                       ▼                                 :
+┌──────────────────────────────────────────────┐         :
+│       Selecionar a melhor combinação         │ - - - - ┘ (não altera)
+└──────────────────────┬───────────────────────┘
+                       │
+                       ▼
+┌──────────────────────────────────────────────┐
+│     Apresentar integrantes, totais e tempo   │
+└──────────────────────┬───────────────────────┘
+                       │
+                       ▼
+┌──────────────────────────────────────────────┐
+│   Transferir escolhidos para os treinadores  │
+└──────────────────────┬───────────────────────┘
+                       │
+                       ▼
+┌──────────────────────────────────────────────┐
+│    Liberar vetor, Equipe e as três listas    │
+└──────────────────────────────────────────────┘
