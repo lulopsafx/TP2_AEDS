@@ -16,4 +16,4 @@ programa/
 │   ├── equipe.c              [EXISTE] iniciar, copiar resultado e liberar índices
 │   └── selecao.c             [EXISTE] gerar X a X, somar e comparar candidatas
 └── testes/
-    └── casos de entrada [PLANEJAR] pequenos exemplos para conferir à mão
+    └── testes do moodle e n15, n20, n25, n30
