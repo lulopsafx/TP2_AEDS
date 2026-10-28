@@ -1,7 +1,7 @@
 # Execute dentro de programa.
 # Windows: mingw32-make; .\tp2.exe testes/mini.txt; mingw32-make clean
 # Linux: make; ./tp2 testes/mini.txt; make clean
-# Novos testes: mingw32-make teste1; mingw32-make teste2 (Linux: make).
+
 CC = gcc
 CFLAGS = -std=c11 -Wall -Wextra -Wpedantic -g -Iinclude
 FONTES = main.c $(wildcard src/*.c)
