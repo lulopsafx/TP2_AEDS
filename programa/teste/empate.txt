@@ -1,0 +1,6 @@
+Ash
+Misty
+2
+4
+1 A Planta 5 4
+4 B Fogo 5 3

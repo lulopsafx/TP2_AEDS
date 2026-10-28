@@ -1,0 +1,34 @@
+Ash
+Misty
+30
+250
+1 Bulbasaur Planta 40 30
+4 Charmander Fogo 50 40
+7 Squirtle Agua 30 20
+25 Pikachu Eletrico 60 50
+16 Pidgey Voador 20 10
+133 Eevee Normal 45 25
+143 Snorlax Normal 80 65
+10 Caterpie Inseto 15 10
+13 Weedle Inseto 15 10
+19 Rattata Normal 25 15
+52 Meowth Normal 75 65
+54 Psyduck Agua 55 10
+56 Mankey Lutador 70 60
+58 Growlithe Fogo 70 55
+60 Poliwag Agua 40 40
+63 Abra Psiquico 85 55
+66 Machop Lutador 45 35
+69 Bellsprout Planta 45 65
+72 Tentacool Agua 100 60
+74 Geodude Pedra 50 65
+77 Ponyta Fogo 75 50
+79 Slowpoke Agua 55 45
+81 Magnemite Eletrico 40 55
+83 Farfetchd Voador 55 20
+84 Doduo Voador 95 60
+86 Seel Agua 100 55
+88 Grimer Veneno 30 60
+90 Shellder Agua 80 35
+92 Gastly Fantasma 50 15
+95 Onix Pedra 55 40

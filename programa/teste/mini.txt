@@ -1,0 +1,7 @@
+Ash
+Misty
+3
+7
+1 A Planta 8 6
+4 B Fogo 5 4
+7 C Agua 4 3
